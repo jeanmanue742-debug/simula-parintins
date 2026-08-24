@@ -99,6 +99,34 @@ func validar_cpf(cpf_str: String) -> bool:
 
 # --- VERIFICAÇÃO ANTI-FRAUDE: CPF JÁ VOTOU? ---
 func verificar_cpf_ja_votou(cpf: String, callback_target: Object, callback_func: String) -> void:
+	if OS.has_feature("web"):
+		var js_code = """
+		(function() {
+			try {
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', '%s/rest/v1/votos?cpf=eq.%s&select=id', false);
+				xhr.setRequestHeader('apikey', '%s');
+				xhr.setRequestHeader('Authorization', 'Bearer %s');
+				xhr.setRequestHeader('Accept', 'application/json');
+				xhr.send();
+				return xhr.responseText;
+			} catch(e) {
+				return '[]';
+			}
+		})()
+		""" % [SUPABASE_URL, cpf.uri_encode(), SUPABASE_KEY, SUPABASE_KEY]
+		
+		var res_str = str(JavaScriptBridge.eval(js_code))
+		var ja_votou = false
+		var json = JSON.new()
+		if json.parse(res_str) == OK and typeof(json.data) == TYPE_ARRAY:
+			if json.data.size() > 0:
+				ja_votou = true
+				
+		if callback_target and callback_target.has_method(callback_func):
+			callback_target.call(callback_func, ja_votou)
+		return
+
 	var http = HTTPRequest.new()
 	http.timeout = 5.0
 	add_child(http)
@@ -134,18 +162,6 @@ func verificar_cpf_ja_votou(cpf: String, callback_target: Object, callback_func:
 
 # --- ENVIAR VOTOS AO SUPABASE ---
 func salvar_voto(callback_target: Object, callback_func: String) -> void:
-	var http = HTTPRequest.new()
-	http.timeout = 8.0
-	add_child(http)
-	
-	var url = SUPABASE_URL + "/rest/v1/votos"
-	var headers = [
-		"apikey: " + SUPABASE_KEY,
-		"Authorization: Bearer " + SUPABASE_KEY,
-		"Content-Type: application/json",
-		"Prefer: return=representation"
-	]
-	
 	var body_dict = {
 		"nome_eleitor": eleitor_nome,
 		"telefone": eleitor_telefone,
@@ -157,6 +173,42 @@ func salvar_voto(callback_target: Object, callback_func: String) -> void:
 		"voto_presidente": votos_atuais["presidente"]
 	}
 	var json_body = JSON.stringify(body_dict)
+
+	if OS.has_feature("web"):
+		var js_code = """
+		(function() {
+			try {
+				var xhr = new XMLHttpRequest();
+				xhr.open('POST', '%s/rest/v1/votos', false);
+				xhr.setRequestHeader('apikey', '%s');
+				xhr.setRequestHeader('Authorization', 'Bearer %s');
+				xhr.setRequestHeader('Content-Type', 'application/json');
+				xhr.setRequestHeader('Prefer', 'return=representation');
+				xhr.send(%s);
+				return (xhr.status >= 200 && xhr.status < 300) ? 'OK' : 'FAIL';
+			} catch(e) {
+				return 'ERROR: ' + e.message;
+			}
+		})()
+		""" % [SUPABASE_URL, SUPABASE_KEY, SUPABASE_KEY, JSON.stringify(json_body)]
+		
+		var res = str(JavaScriptBridge.eval(js_code))
+		var success = (res == "OK")
+		if callback_target and callback_target.has_method(callback_func):
+			callback_target.call(callback_func, success)
+		return
+
+	var http = HTTPRequest.new()
+	http.timeout = 8.0
+	add_child(http)
+	
+	var url = SUPABASE_URL + "/rest/v1/votos"
+	var headers = [
+		"apikey: " + SUPABASE_KEY,
+		"Authorization: Bearer " + SUPABASE_KEY,
+		"Content-Type: application/json",
+		"Prefer: return=representation"
+	]
 	
 	http.request_completed.connect(func(result: int, response_code: int, response_headers: PackedStringArray, response_body: PackedByteArray):
 		var success = (response_code >= 200 and response_code < 300)
@@ -177,6 +229,33 @@ func salvar_voto(callback_target: Object, callback_func: String) -> void:
 
 # --- BUSCAR TODAS AS PARCIAIS NO SUPABASE ---
 func carregar_parciais(callback_target: Object, callback_func: String) -> void:
+	if OS.has_feature("web"):
+		var js_code = """
+		(function() {
+			try {
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', '%s/rest/v1/votos?select=id,voto_presidente,voto_governador,voto_senador,voto_federal,voto_estadual', false);
+				xhr.setRequestHeader('apikey', '%s');
+				xhr.setRequestHeader('Authorization', 'Bearer %s');
+				xhr.setRequestHeader('Accept', 'application/json');
+				xhr.send();
+				return xhr.responseText;
+			} catch(e) {
+				return '[]';
+			}
+		})()
+		""" % [SUPABASE_URL, SUPABASE_KEY, SUPABASE_KEY]
+		
+		var res_str = str(JavaScriptBridge.eval(js_code))
+		var list = []
+		var json = JSON.new()
+		if json.parse(res_str) == OK and typeof(json.data) == TYPE_ARRAY:
+			list = json.data
+			
+		if callback_target and callback_target.has_method(callback_func):
+			callback_target.call(callback_func, list)
+		return
+
 	var http = HTTPRequest.new()
 	http.timeout = 8.0
 	add_child(http)
