@@ -49,10 +49,17 @@ func _ready() -> void:
 func _carregar_dados() -> void:
 	lbl_status.text = "Carregando apuração dos votos..."
 	Global.carregar_parciais(self, "_on_dados_carregados")
+	get_tree().create_timer(6.0).timeout.connect(func():
+		if lbl_status and lbl_status.text == "Carregando apuração dos votos...":
+			lbl_status.text = "Toque em Atualizar para recarregar os dados."
+	)
 
 func _on_dados_carregados(dados: Array) -> void:
 	votos_carregados = dados
-	lbl_status.text = "Total de eleitores na base: " + str(votos_carregados.size())
+	if votos_carregados.size() == 0:
+		lbl_status.text = "Nenhum voto computado ainda nesta eleição."
+	else:
+		lbl_status.text = "Total de eleitores que já votaram: " + str(votos_carregados.size())
 	_atualizar_exibicao()
 
 func _selecionar_categoria(cargo: String) -> void:

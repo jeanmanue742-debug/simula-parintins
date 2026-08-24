@@ -181,7 +181,7 @@ func carregar_parciais(callback_target: Object, callback_func: String) -> void:
 	http.timeout = 8.0
 	add_child(http)
 	
-	var url = SUPABASE_URL + "/rest/v1/votos?select=*"
+	var url = SUPABASE_URL + "/rest/v1/votos?select=id,voto_presidente,voto_governador,voto_senador,voto_federal,voto_estadual"
 	var headers = [
 		"apikey: " + SUPABASE_KEY,
 		"Authorization: Bearer " + SUPABASE_KEY
@@ -189,12 +189,13 @@ func carregar_parciais(callback_target: Object, callback_func: String) -> void:
 	
 	http.request_completed.connect(func(result: int, response_code: int, response_headers: PackedStringArray, response_body: PackedByteArray):
 		var list = []
+		var body_str = response_body.get_string_from_utf8()
 		if response_code >= 200 and response_code < 300:
 			var json = JSON.new()
-			if json.parse(response_body.get_string_from_utf8()) == OK and typeof(json.data) == TYPE_ARRAY:
+			if json.parse(body_str) == OK and typeof(json.data) == TYPE_ARRAY:
 				list = json.data
 		else:
-			print("Falha ao carregar parciais do Supabase. Código: ", response_code)
+			print("Nota parciais Supabase: ", response_code, " ", body_str)
 			
 		if callback_target and callback_target.has_method(callback_func):
 			callback_target.call(callback_func, list)
