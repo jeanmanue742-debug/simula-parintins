@@ -145,6 +145,13 @@ func _on_btn_iniciar_pressed() -> void:
 	
 	# Consulta Supabase se o CPF já votou
 	Global.verificar_cpf_ja_votou(cpf, self, "_on_verificacao_cpf_concluida")
+	
+	# Proteção contra travamento (timeout de segurança)
+	get_tree().create_timer(5.5).timeout.connect(func():
+		if btn_iniciar and btn_iniciar.disabled and lbl_erro.text.begins_with("Verificando"):
+			btn_iniciar.disabled = false
+			lbl_erro.text = "Tempo limite esgotado. Verifique sua conexão e tente novamente."
+	)
 
 func _on_verificacao_cpf_concluida(ja_votou: bool) -> void:
 	btn_iniciar.disabled = false
@@ -163,3 +170,4 @@ func _on_verificacao_cpf_concluida(ja_votou: bool) -> void:
 	
 	# Transiciona direto para a Urna Eletrônica!
 	get_tree().change_scene_to_file("res://scenes/Urna.tscn")
+
