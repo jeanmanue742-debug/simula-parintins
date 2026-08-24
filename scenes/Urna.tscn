@@ -1,0 +1,586 @@
+[gd_scene format=3 uid="uid://c8yj7x4v9b2pq"]
+
+[ext_resource type="Script" path="res://scripts/Urna.gd" id="1_urna"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bg"]
+bg_color = Color(0.93, 0.95, 0.98, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_nav"]
+content_margin_left = 20.0
+content_margin_top = 12.0
+content_margin_right = 20.0
+content_margin_bottom = 12.0
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 3
+border_color = Color(0.78, 0.83, 0.9, 1)
+corner_radius_top_left = 14
+corner_radius_top_right = 14
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gabinete"]
+content_margin_left = 18.0
+content_margin_top = 18.0
+content_margin_right = 18.0
+content_margin_bottom = 18.0
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.85, 0.89, 0.94, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+shadow_color = Color(0.08, 0.15, 0.25, 0.1)
+shadow_size = 20
+shadow_offset = Vector2(0, 8)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tela_lcd"]
+bg_color = Color(0.960784, 0.972549, 0.988235, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.78, 0.83, 0.9, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_foto_frame"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.75, 0.8, 0.88, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.08)
+shadow_size = 8
+shadow_offset = Vector2(0, 3)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fim"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_teclado_bg"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0.92, 0.94, 0.97, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.82, 0.86, 0.92, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_num"]
+content_margin_left = 10.0
+content_margin_top = 12.0
+content_margin_right = 10.0
+content_margin_bottom = 12.0
+bg_color = Color(1, 1, 1, 1)
+border_width_bottom = 5
+border_color = Color(0.75, 0.8, 0.86, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+shadow_color = Color(0, 0, 0, 0.06)
+shadow_size = 6
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_num_hover"]
+content_margin_left = 10.0
+content_margin_top = 12.0
+content_margin_right = 10.0
+content_margin_bottom = 12.0
+bg_color = Color(0.93, 0.96, 1, 1)
+border_width_bottom = 5
+border_color = Color(0.65, 0.72, 0.82, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_branco"]
+content_margin_left = 8.0
+content_margin_top = 16.0
+content_margin_right = 8.0
+content_margin_bottom = 16.0
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 5
+border_color = Color(0.75, 0.8, 0.86, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_corrige"]
+content_margin_left = 8.0
+content_margin_top = 16.0
+content_margin_right = 8.0
+content_margin_bottom = 16.0
+bg_color = Color(0.976471, 0.45098, 0.0862745, 1)
+border_width_bottom = 5
+border_color = Color(0.76, 0.25, 0.05, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_confirma"]
+content_margin_left = 8.0
+content_margin_top = 20.0
+content_margin_right = 8.0
+content_margin_bottom = 20.0
+bg_color = Color(0, 0.752941, 0.615686, 1)
+border_width_bottom = 6
+border_color = Color(0, 0.56, 0.45, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+shadow_color = Color(0, 0.75, 0.61, 0.3)
+shadow_size = 10
+shadow_offset = Vector2(0, 4)
+
+[node name="Urna" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_urna")
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_bg")
+
+[node name="MarginMain" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 85
+
+[node name="VBoxMain" type="VBoxContainer" parent="MarginMain"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="HBoxTopNav" type="HBoxContainer" parent="MarginMain/VBoxMain"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="BtnVoltarMenu" type="Button" parent="MarginMain/VBoxMain/HBoxTopNav"]
+custom_minimum_size = Vector2(180, 50)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.15, 0.2, 0.3, 1)
+theme_override_colors/font_hover_color = Color(0.08, 0.35, 0.85, 1)
+theme_override_colors/font_pressed_color = Color(0.08, 0.35, 0.85, 1)
+theme_override_colors/font_focus_color = Color(0.15, 0.2, 0.3, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_nav")
+text = "< Voltar ao Menu"
+
+[node name="LblJusticaEleitoral" type="Label" parent="MarginMain/VBoxMain/HBoxTopNav"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.08, 0.35, 0.85, 1)
+theme_override_font_sizes/font_size = 22
+text = "SIMULA PARINTINS"
+horizontal_alignment = 2
+
+[node name="UrnaContainer" type="PanelContainer" parent="MarginMain/VBoxMain"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_gabinete")
+
+[node name="VBoxUrna" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="TelaLCD" type="Panel" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna"]
+custom_minimum_size = Vector2(0, 530)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_tela_lcd")
+
+[node name="Margin" type="MarginContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 14
+
+[node name="VBoxTela" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Header" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="LblSeuVoto" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Header"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.35, 0.42, 0.52, 1)
+theme_override_font_sizes/font_size = 20
+text = "SEU VOTO PARA"
+
+[node name="LblCargo" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Header"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+text = "DEPUTADO FEDERAL"
+
+[node name="Content" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxMiddle" type="HBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 16
+
+[node name="LeftContent" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 8
+
+[node name="LblNumeroPrompt" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/LeftContent"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.35, 0.42, 0.52, 1)
+theme_override_font_sizes/font_size = 20
+text = "Número:"
+
+[node name="HBoxDigitos" type="HBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/LeftContent"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Spacer" type="Control" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/LeftContent"]
+custom_minimum_size = Vector2(0, 4)
+layout_mode = 2
+
+[node name="InfoVBox" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/LeftContent"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="LblNome" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/LeftContent/InfoVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 22
+text = "Nome: Candidato Modelo"
+autowrap_mode = 2
+
+[node name="LblPartido" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/LeftContent/InfoVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15, 0.25, 0.4, 1)
+theme_override_font_sizes/font_size = 20
+text = "Partido: PDE - Partido da Esperança"
+autowrap_mode = 2
+
+[node name="LblVice" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/LeftContent/InfoVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.38, 0.48, 1)
+theme_override_font_sizes/font_size = 20
+text = "Vice: Fulano de Tal"
+autowrap_mode = 2
+
+[node name="LblAvisoEspecial" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/LeftContent"]
+visible = false
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 26
+text = "VOTO EM BRANCO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightContent" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 6
+
+[node name="PanelFoto" type="PanelContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/RightContent"]
+clip_children = 2
+custom_minimum_size = Vector2(240, 240)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_foto_frame")
+
+[node name="FotoCandidato" type="TextureRect" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/RightContent/PanelFoto"]
+custom_minimum_size = Vector2(236, 236)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="LblLegenda" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Content/HBoxMiddle/RightContent"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.38, 0.48, 1)
+theme_override_font_sizes/font_size = 20
+text = "CANDIDATO"
+horizontal_alignment = 1
+
+[node name="Footer" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela"]
+layout_mode = 2
+
+[node name="Line" type="HSeparator" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Footer"]
+layout_mode = 2
+
+[node name="VBoxInstrucoes" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Footer"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="LblInst1" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Footer/VBoxInstrucoes"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.35, 0.42, 0.52, 1)
+theme_override_font_sizes/font_size = 20
+text = "Aperte a tecla:"
+
+[node name="LblInst2" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Footer/VBoxInstrucoes"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0.6, 0.45, 1)
+theme_override_font_sizes/font_size = 20
+text = "VERDE para CONFIRMAR este voto"
+
+[node name="LblInst3" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/Margin/VBoxTela/Footer/VBoxInstrucoes"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9, 0.4, 0.05, 1)
+theme_override_font_sizes/font_size = 20
+text = "LARANJA para REINICIAR este voto"
+
+[node name="TelaFimPanel" type="CenterContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Bg" type="Panel" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/TelaFimPanel"]
+custom_minimum_size = Vector2(600, 480)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_fim")
+
+[node name="VBoxFim" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/TelaFimPanel"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="LblFim" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/TelaFimPanel/VBoxFim"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 72
+text = "FIM"
+horizontal_alignment = 1
+
+[node name="LblVotou" type="Label" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/TelaLCD/TelaFimPanel/VBoxFim"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0.65, 0.45, 1)
+theme_override_font_sizes/font_size = 22
+text = "VOTO COMPUTADO COM SUCESSO"
+horizontal_alignment = 1
+
+[node name="Teclado" type="PanelContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_teclado_bg")
+
+[node name="VBox" type="VBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="GridNumeros" type="GridContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 18
+theme_override_constants/v_separation = 12
+columns = 3
+
+[node name="Btn1" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "1"
+
+[node name="Btn2" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "2"
+
+[node name="Btn3" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "3"
+
+[node name="Btn4" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "4"
+
+[node name="Btn5" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "5"
+
+[node name="Btn6" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "6"
+
+[node name="Btn7" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "7"
+
+[node name="Btn8" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "8"
+
+[node name="Btn9" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "9"
+
+[node name="SpacerEmpty1" type="Control" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+layout_mode = 2
+
+[node name="Btn0" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+custom_minimum_size = Vector2(92, 64)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_num")
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_num_hover")
+text = "0"
+
+[node name="SpacerEmpty2" type="Control" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/GridNumeros"]
+layout_mode = 2
+
+[node name="BotoesAcao" type="HBoxContainer" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="BtnBranco" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/BotoesAcao"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.15, 0.2, 0.3, 1)
+theme_override_colors/font_hover_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_colors/font_pressed_color = Color(0.05, 0.08, 0.15, 1)
+theme_override_colors/font_focus_color = Color(0.15, 0.2, 0.3, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_branco")
+text = "BRANCO"
+
+[node name="BtnCorrige" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/BotoesAcao"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_corrige")
+text = "CORRIGE"
+
+[node name="BtnConfirma" type="Button" parent="MarginMain/VBoxMain/UrnaContainer/VBoxUrna/Teclado/VBox/BotoesAcao"]
+custom_minimum_size = Vector2(0, 68)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 1.2
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_confirma")
+text = "CONFIRMA"

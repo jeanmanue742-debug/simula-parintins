@@ -1,0 +1,3228 @@
+{
+  "governador": [
+    {
+      "numero": "33",
+      "nome": "Cabo Daciolo",
+      "partido": "MOBILIZA",
+      "sigla": "MOBILIZA",
+      "foto": "res://assets/fotos/governador_33.jpg",
+      "vice": "Igor Oliveira (MOBILIZA)"
+    },
+    {
+      "numero": "70",
+      "nome": "David Almeida",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/governador_70.jpg",
+      "vice": "Dra. Shádia (AVANTE)"
+    },
+    {
+      "numero": "16",
+      "nome": "Gilberto Vasconcelos",
+      "partido": "PSTU",
+      "sigla": "PSTU",
+      "foto": "res://assets/fotos/governador_16.jpg",
+      "vice": "Juliana Frota (PSTU)"
+    },
+    {
+      "numero": "18",
+      "nome": "Isael Munduruku",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/governador_18.jpg",
+      "vice": "Leo Balbi (PSOL)"
+    },
+    {
+      "numero": "55",
+      "nome": "Omar Aziz",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/governador_55.jpg",
+      "vice": "Alessandra Campelo (PSD)"
+    },
+    {
+      "numero": "22",
+      "nome": "Professora Maria do Carmo",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/governador_22.jpg",
+      "vice": "Coronel Anibal (PL)"
+    },
+    {
+      "numero": "44",
+      "nome": "Roberto Cidade",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/governador_44.jpg",
+      "vice": "Serafim (PSB)"
+    }
+  ],
+  "senador": [
+    {
+      "numero": "222",
+      "nome": "Capitão Alberto Neto",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/senador_222.jpg",
+      "suplente1": "Alessandro Toniza (PL)",
+      "suplente2": "Mário Bastos (PL)"
+    },
+    {
+      "numero": "277",
+      "nome": "Dailson Corrêa",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/senador_277.jpg",
+      "suplente1": "Isaías Amazonas (DC)",
+      "suplente2": "Capelão Roberto da Silva (DC)"
+    },
+    {
+      "numero": "155",
+      "nome": "Eduardo Braga",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/senador_155.jpg",
+      "suplente1": "Sandra Braga (MDB)",
+      "suplente2": "Miguel Biango (MDB)"
+    },
+    {
+      "numero": "161",
+      "nome": "Evandro de Oliveira",
+      "partido": "PSTU",
+      "sigla": "PSTU",
+      "foto": "res://assets/fotos/senador_161.jpg",
+      "suplente1": "Antonio Neto (PSTU)",
+      "suplente2": "João Rebouças (PSTU)"
+    },
+    {
+      "numero": "181",
+      "nome": "Ismael Munduruku",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/senador_181.jpg",
+      "suplente1": "Laynara Prestes (REDE)",
+      "suplente2": "André Monteiro (REDE)"
+    },
+    {
+      "numero": "455",
+      "nome": "Plinio Valério",
+      "partido": "PSDB",
+      "sigla": "PSDB",
+      "foto": "res://assets/fotos/senador_455.jpg",
+      "suplente1": "Kelly Barbosa (PSDB)",
+      "suplente2": "Professora Judite (PSDB)"
+    },
+    {
+      "numero": "500",
+      "nome": "Professora Evany",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/senador_500.jpg",
+      "suplente1": "Renan Rotondano (PSOL)",
+      "suplente2": "Jander Muniz (PSOL)"
+    },
+    {
+      "numero": "444",
+      "nome": "Wilson Lima",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/senador_444.jpg",
+      "suplente1": "Luís Mário Bonates (UNIÃO)",
+      "suplente2": "Babá Tupinambá (PP)"
+    },
+    {
+      "numero": "333",
+      "nome": "Xuxa do Amazonas",
+      "partido": "MOBILIZA",
+      "sigla": "MOBILIZA",
+      "foto": "res://assets/fotos/senador_333.jpg",
+      "suplente1": "Neida Farias (MOBILIZA)",
+      "suplente2": "Angelo Reis (MOBILIZA)"
+    }
+  ],
+  "deputado_federal": [
+    {
+      "numero": "1515",
+      "nome": "Adail Filho",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1515.jpg"
+    },
+    {
+      "numero": "1001",
+      "nome": "Adriana Borges",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1001.jpg"
+    },
+    {
+      "numero": "1300",
+      "nome": "Adriana Xavier",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_federal_1300.jpg"
+    },
+    {
+      "numero": "1600",
+      "nome": "Alexandre Solorzano",
+      "partido": "PSTU",
+      "sigla": "PSTU",
+      "foto": "res://assets/fotos/deputado_federal_1600.jpg"
+    },
+    {
+      "numero": "7777",
+      "nome": "Alexandre da Carbrás",
+      "partido": "SOLIDARIEDADE",
+      "sigla": "SOLIDARIEDADE",
+      "foto": "res://assets/fotos/deputado_federal_7777.jpg"
+    },
+    {
+      "numero": "2222",
+      "nome": "Alfredo Nascimento",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2222.jpg"
+    },
+    {
+      "numero": "5511",
+      "nome": "Amauri Gomes",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5511.jpg"
+    },
+    {
+      "numero": "1000",
+      "nome": "Amom Mandel",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1000.jpg"
+    },
+    {
+      "numero": "5512",
+      "nome": "Ana Paula Mesquita",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5512.jpg"
+    },
+    {
+      "numero": "8000",
+      "nome": "Ana Roque",
+      "partido": "UP",
+      "sigla": "UP",
+      "foto": "res://assets/fotos/deputado_federal_8000.jpg"
+    },
+    {
+      "numero": "2022",
+      "nome": "Andre Passos",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2022.jpg"
+    },
+    {
+      "numero": "1314",
+      "nome": "Anne Moura",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_federal_1314.jpg"
+    },
+    {
+      "numero": "1545",
+      "nome": "Arthur Neto",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1545.jpg"
+    },
+    {
+      "numero": "5525",
+      "nome": "Atila Lins",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5525.jpg"
+    },
+    {
+      "numero": "1616",
+      "nome": "Auxiliadora Castro",
+      "partido": "PSTU",
+      "sigla": "PSTU",
+      "foto": "res://assets/fotos/deputado_federal_1616.jpg"
+    },
+    {
+      "numero": "1551",
+      "nome": "Beth Docinho",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1551.jpg"
+    },
+    {
+      "numero": "1516",
+      "nome": "Caila Carim",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1516.jpg"
+    },
+    {
+      "numero": "7770",
+      "nome": "Carles Waldemar Maguila",
+      "partido": "SOLIDARIEDADE",
+      "sigla": "SOLIDARIEDADE",
+      "foto": "res://assets/fotos/deputado_federal_7770.jpg"
+    },
+    {
+      "numero": "4000",
+      "nome": "Christiane Melchior",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4000.jpg"
+    },
+    {
+      "numero": "7022",
+      "nome": "Coronel Menezes",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7022.jpg"
+    },
+    {
+      "numero": "2233",
+      "nome": "Coronel Rosses",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2233.jpg"
+    },
+    {
+      "numero": "7007",
+      "nome": "Cris Paiva",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7007.jpg"
+    },
+    {
+      "numero": "1213",
+      "nome": "Daniel Souza",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_federal_1213.jpg"
+    },
+    {
+      "numero": "1222",
+      "nome": "Darlene Neves",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_federal_1222.jpg"
+    },
+    {
+      "numero": "5580",
+      "nome": "Delegada Débora Mafra",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5580.jpg"
+    },
+    {
+      "numero": "2277",
+      "nome": "Delegado Costa e Silva",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2277.jpg"
+    },
+    {
+      "numero": "5588",
+      "nome": "Delegado Lázaro Mendes",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5588.jpg"
+    },
+    {
+      "numero": "2255",
+      "nome": "Delegado Pablo",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2255.jpg"
+    },
+    {
+      "numero": "1350",
+      "nome": "Delegado Tayah",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_federal_1350.jpg"
+    },
+    {
+      "numero": "7707",
+      "nome": "Denis Real",
+      "partido": "SOLIDARIEDADE",
+      "sigla": "SOLIDARIEDADE",
+      "foto": "res://assets/fotos/deputado_federal_7707.jpg"
+    },
+    {
+      "numero": "1313",
+      "nome": "Denis da Silva",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_federal_1313.jpg"
+    },
+    {
+      "numero": "2777",
+      "nome": "Denison Vilar da Saúde",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2777.jpg"
+    },
+    {
+      "numero": "3011",
+      "nome": "Diana Rodrigues",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_federal_3011.jpg"
+    },
+    {
+      "numero": "3333",
+      "nome": "Doutora Alice Mafra",
+      "partido": "MOBILIZA",
+      "sigla": "MOBILIZA",
+      "foto": "res://assets/fotos/deputado_federal_3333.jpg"
+    },
+    {
+      "numero": "2766",
+      "nome": "Doutora Amanda Souza",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2766.jpg"
+    },
+    {
+      "numero": "7010",
+      "nome": "Dr Raione Cabral",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7010.jpg"
+    },
+    {
+      "numero": "1251",
+      "nome": "Dr. Israel Tuyuka",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_federal_1251.jpg"
+    },
+    {
+      "numero": "4455",
+      "nome": "Dr. Miguel Carratte",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_federal_4455.jpg"
+    },
+    {
+      "numero": "7070",
+      "nome": "Dra Aryel Almeida",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7070.jpg"
+    },
+    {
+      "numero": "1505",
+      "nome": "Dra. Amanda Pinheiro",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1505.jpg"
+    },
+    {
+      "numero": "7077",
+      "nome": "Dra. Eunice Nascimento",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7077.jpg"
+    },
+    {
+      "numero": "2259",
+      "nome": "Dra. Patricia Sicchar",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2259.jpg"
+    },
+    {
+      "numero": "3322",
+      "nome": "Eberson Batera",
+      "partido": "MOBILIZA",
+      "sigla": "MOBILIZA",
+      "foto": "res://assets/fotos/deputado_federal_3322.jpg"
+    },
+    {
+      "numero": "1456",
+      "nome": "Edgar Oliveira",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1456.jpg"
+    },
+    {
+      "numero": "1333",
+      "nome": "Edjane da Fetagri",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_federal_1333.jpg"
+    },
+    {
+      "numero": "1401",
+      "nome": "Eduardo Theo",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1401.jpg"
+    },
+    {
+      "numero": "3022",
+      "nome": "Efigênio Carvalho",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_federal_3022.jpg"
+    },
+    {
+      "numero": "1414",
+      "nome": "Eliabe Campos",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1414.jpg"
+    },
+    {
+      "numero": "2772",
+      "nome": "Elpídio dos Povos Mura",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2772.jpg"
+    },
+    {
+      "numero": "1299",
+      "nome": "Evaldo Vasconcelos",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_federal_1299.jpg"
+    },
+    {
+      "numero": "4477",
+      "nome": "Fausto Jr",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_federal_4477.jpg"
+    },
+    {
+      "numero": "2700",
+      "nome": "Frank Carlos",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2700.jpg"
+    },
+    {
+      "numero": "1063",
+      "nome": "Glaucia Rebelo",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1063.jpg"
+    },
+    {
+      "numero": "2707",
+      "nome": "Gláucia Amazonas",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2707.jpg"
+    },
+    {
+      "numero": "2757",
+      "nome": "Gonza",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2757.jpg"
+    },
+    {
+      "numero": "2040",
+      "nome": "Hermano Junior",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2040.jpg"
+    },
+    {
+      "numero": "1011",
+      "nome": "Hissa Abrahão",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1011.jpg"
+    },
+    {
+      "numero": "1415",
+      "nome": "Iana Nadina",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1415.jpg"
+    },
+    {
+      "numero": "2210",
+      "nome": "Jean Batista",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2210.jpg"
+    },
+    {
+      "numero": "1500",
+      "nome": "Jesus Alves",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1500.jpg"
+    },
+    {
+      "numero": "4444",
+      "nome": "Joana Darc",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_federal_4444.jpg"
+    },
+    {
+      "numero": "4044",
+      "nome": "Joaquim Felipe",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4044.jpg"
+    },
+    {
+      "numero": "7001",
+      "nome": "Joelson Silva",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7001.jpg"
+    },
+    {
+      "numero": "5500",
+      "nome": "Jorge Oliveira",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5500.jpg"
+    },
+    {
+      "numero": "1233",
+      "nome": "Jornada",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_federal_1233.jpg"
+    },
+    {
+      "numero": "1044",
+      "nome": "Josildo Oliveira",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1044.jpg"
+    },
+    {
+      "numero": "1433",
+      "nome": "Jota Brandão",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1433.jpg"
+    },
+    {
+      "numero": "1033",
+      "nome": "João Carlos",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1033.jpg"
+    },
+    {
+      "numero": "8080",
+      "nome": "João Lima",
+      "partido": "UP",
+      "sigla": "UP",
+      "foto": "res://assets/fotos/deputado_federal_8080.jpg"
+    },
+    {
+      "numero": "7000",
+      "nome": "Junior Resgate",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7000.jpg"
+    },
+    {
+      "numero": "4004",
+      "nome": "Jàrdel Inácio",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4004.jpg"
+    },
+    {
+      "numero": "7711",
+      "nome": "Karola Pro Vida",
+      "partido": "SOLIDARIEDADE",
+      "sigla": "SOLIDARIEDADE",
+      "foto": "res://assets/fotos/deputado_federal_7711.jpg"
+    },
+    {
+      "numero": "7713",
+      "nome": "Keylla Marinho",
+      "partido": "SOLIDARIEDADE",
+      "sigla": "SOLIDARIEDADE",
+      "foto": "res://assets/fotos/deputado_federal_7713.jpg"
+    },
+    {
+      "numero": "3030",
+      "nome": "Layon Nunes",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_federal_3030.jpg"
+    },
+    {
+      "numero": "7790",
+      "nome": "Lene Souza",
+      "partido": "SOLIDARIEDADE",
+      "sigla": "SOLIDARIEDADE",
+      "foto": "res://assets/fotos/deputado_federal_7790.jpg"
+    },
+    {
+      "numero": "4007",
+      "nome": "Loira do Salgado",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4007.jpg"
+    },
+    {
+      "numero": "1400",
+      "nome": "Luciana Viga",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1400.jpg"
+    },
+    {
+      "numero": "1363",
+      "nome": "Luis Carlos Velho",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_federal_1363.jpg"
+    },
+    {
+      "numero": "1800",
+      "nome": "Luiz Andrade",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_federal_1800.jpg"
+    },
+    {
+      "numero": "1377",
+      "nome": "Luiz Borges",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_federal_1377.jpg"
+    },
+    {
+      "numero": "1212",
+      "nome": "Madalena Silva",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_federal_1212.jpg"
+    },
+    {
+      "numero": "4008",
+      "nome": "Marcia Silva",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4008.jpg"
+    },
+    {
+      "numero": "1818",
+      "nome": "Marcos Apurinã",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_federal_1818.jpg"
+    },
+    {
+      "numero": "3033",
+      "nome": "Maria Gato",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_federal_3033.jpg"
+    },
+    {
+      "numero": "7706",
+      "nome": "Marquinhos Maia",
+      "partido": "SOLIDARIEDADE",
+      "sigla": "SOLIDARIEDADE",
+      "foto": "res://assets/fotos/deputado_federal_7706.jpg"
+    },
+    {
+      "numero": "6565",
+      "nome": "Marília Freire",
+      "partido": "PCDOB",
+      "sigla": "PCDOB",
+      "foto": "res://assets/fotos/deputado_federal_6565.jpg"
+    },
+    {
+      "numero": "1024",
+      "nome": "Massami Miki",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1024.jpg"
+    },
+    {
+      "numero": "1420",
+      "nome": "Mateus do Ti",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1420.jpg"
+    },
+    {
+      "numero": "2066",
+      "nome": "Mauro Teixeira",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2066.jpg"
+    },
+    {
+      "numero": "4040",
+      "nome": "Melyssa Geber",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4040.jpg"
+    },
+    {
+      "numero": "4022",
+      "nome": "Mestre Estelio Gabino",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4022.jpg"
+    },
+    {
+      "numero": "2244",
+      "nome": "Micka Sevalho",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2244.jpg"
+    },
+    {
+      "numero": "5055",
+      "nome": "Natalia",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_federal_5055.jpg"
+    },
+    {
+      "numero": "5544",
+      "nome": "Nath Nascimento",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5544.jpg"
+    },
+    {
+      "numero": "1522",
+      "nome": "Nathan Macena",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1522.jpg"
+    },
+    {
+      "numero": "2711",
+      "nome": "Nonato Chegado",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2711.jpg"
+    },
+    {
+      "numero": "3077",
+      "nome": "Oder Aurélio",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_federal_3077.jpg"
+    },
+    {
+      "numero": "1813",
+      "nome": "Odimar Guimarães",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_federal_1813.jpg"
+    },
+    {
+      "numero": "4023",
+      "nome": "Paixão",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4023.jpg"
+    },
+    {
+      "numero": "2012",
+      "nome": "Pastora Ruth Costa",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2012.jpg"
+    },
+    {
+      "numero": "1477",
+      "nome": "Patricia Benzaquem",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1477.jpg"
+    },
+    {
+      "numero": "1888",
+      "nome": "Patrícia Barroso",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_federal_1888.jpg"
+    },
+    {
+      "numero": "5522",
+      "nome": "Pauderney",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5522.jpg"
+    },
+    {
+      "numero": "2200",
+      "nome": "Paula Portela",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2200.jpg"
+    },
+    {
+      "numero": "3010",
+      "nome": "Paulo Arthur",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_federal_3010.jpg"
+    },
+    {
+      "numero": "2021",
+      "nome": "Pr. Edivan Castilho",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2021.jpg"
+    },
+    {
+      "numero": "2025",
+      "nome": "Professor Amilton Gadelha",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2025.jpg"
+    },
+    {
+      "numero": "6555",
+      "nome": "Professor Arqleydsson",
+      "partido": "PCDOB",
+      "sigla": "PCDOB",
+      "foto": "res://assets/fotos/deputado_federal_6555.jpg"
+    },
+    {
+      "numero": "7012",
+      "nome": "Professor Dalmir Salazar",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7012.jpg"
+    },
+    {
+      "numero": "2727",
+      "nome": "Professor Roque Lane",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2727.jpg"
+    },
+    {
+      "numero": "5067",
+      "nome": "Professor Welton Oda",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_federal_5067.jpg"
+    },
+    {
+      "numero": "2789",
+      "nome": "Professora Lene Maia",
+      "partido": "DC",
+      "sigla": "DC",
+      "foto": "res://assets/fotos/deputado_federal_2789.jpg"
+    },
+    {
+      "numero": "4411",
+      "nome": "Professora Therezinha Ruiz",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_federal_4411.jpg"
+    },
+    {
+      "numero": "7025",
+      "nome": "Radyr Junior",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_federal_7025.jpg"
+    },
+    {
+      "numero": "1234",
+      "nome": "Renata Kokama",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_federal_1234.jpg"
+    },
+    {
+      "numero": "3067",
+      "nome": "Richard Stone",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_federal_3067.jpg"
+    },
+    {
+      "numero": "2015",
+      "nome": "Rita da Enfermagem",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2015.jpg"
+    },
+    {
+      "numero": "7712",
+      "nome": "Robson Goiabeira",
+      "partido": "SOLIDARIEDADE",
+      "sigla": "SOLIDARIEDADE",
+      "foto": "res://assets/fotos/deputado_federal_7712.jpg"
+    },
+    {
+      "numero": "1255",
+      "nome": "Robério Kambeba",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_federal_1255.jpg"
+    },
+    {
+      "numero": "4011",
+      "nome": "Ronaldinho Show",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_federal_4011.jpg"
+    },
+    {
+      "numero": "4433",
+      "nome": "Saimon Bessa",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_federal_4433.jpg"
+    },
+    {
+      "numero": "2044",
+      "nome": "Sargento Augusto",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2044.jpg"
+    },
+    {
+      "numero": "2211",
+      "nome": "Sargento Salazar",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_federal_2211.jpg"
+    },
+    {
+      "numero": "1555",
+      "nome": "Saullo Vianna",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1555.jpg"
+    },
+    {
+      "numero": "5555",
+      "nome": "Sidney Leite",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_federal_5555.jpg"
+    },
+    {
+      "numero": "1010",
+      "nome": "Silas Câmara",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1010.jpg"
+    },
+    {
+      "numero": "3000",
+      "nome": "Soraya Cohen",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_federal_3000.jpg"
+    },
+    {
+      "numero": "1111",
+      "nome": "Tadeu de Souza",
+      "partido": "PP",
+      "sigla": "PP",
+      "foto": "res://assets/fotos/deputado_federal_1111.jpg"
+    },
+    {
+      "numero": "1144",
+      "nome": "Tenente Coronel Adriana",
+      "partido": "PP",
+      "sigla": "PP",
+      "foto": "res://assets/fotos/deputado_federal_1144.jpg"
+    },
+    {
+      "numero": "4400",
+      "nome": "Thaysa Lippy",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_federal_4400.jpg"
+    },
+    {
+      "numero": "5013",
+      "nome": "Val Santos",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_federal_5013.jpg"
+    },
+    {
+      "numero": "5033",
+      "nome": "Valdeco Tattoo",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_federal_5033.jpg"
+    },
+    {
+      "numero": "1513",
+      "nome": "Vanda Witoto",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_federal_1513.jpg"
+    },
+    {
+      "numero": "2026",
+      "nome": "Vanete Carvalho",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_federal_2026.jpg"
+    },
+    {
+      "numero": "1055",
+      "nome": "Viviane Lima",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_federal_1055.jpg"
+    },
+    {
+      "numero": "4456",
+      "nome": "Walzenir Falcão",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_federal_4456.jpg"
+    },
+    {
+      "numero": "1444",
+      "nome": "Wick Ryan",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "foto": "res://assets/fotos/deputado_federal_1444.jpg"
+    },
+    {
+      "numero": "5050",
+      "nome": "Álex Sousa",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_federal_5050.jpg"
+    }
+  ],
+  "deputado_estadual": [
+    {
+      "numero": "70000",
+      "nome": "Abdala Fraxe",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70000.jpg"
+    },
+    {
+      "numero": "15555",
+      "nome": "Adenilson Filho do Rio Madeira",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15555.jpg"
+    },
+    {
+      "numero": "44111",
+      "nome": "Adjuto Afonso",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44111.jpg"
+    },
+    {
+      "numero": "22722",
+      "nome": "Adriane Magalhães",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22722.jpg"
+    },
+    {
+      "numero": "50555",
+      "nome": "Ailton Fernandes",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50555.jpg"
+    },
+    {
+      "numero": "44123",
+      "nome": "Aldenor Lima",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44123.jpg"
+    },
+    {
+      "numero": "20026",
+      "nome": "Alessandra Farias",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20026.jpg"
+    },
+    {
+      "numero": "55635",
+      "nome": "Almir Inacio",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55635.jpg"
+    },
+    {
+      "numero": "12200",
+      "nome": "Amanda Mototáxi",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12200.jpg"
+    },
+    {
+      "numero": "15666",
+      "nome": "Anderson Almada",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15666.jpg"
+    },
+    {
+      "numero": "44044",
+      "nome": "Anderson Santos",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44044.jpg"
+    },
+    {
+      "numero": "22888",
+      "nome": "Andrea Ramos",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22888.jpg"
+    },
+    {
+      "numero": "30121",
+      "nome": "Andressa Brasil",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30121.jpg"
+    },
+    {
+      "numero": "22022",
+      "nome": "Andréa Abrantes",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22022.jpg"
+    },
+    {
+      "numero": "12122",
+      "nome": "Angela Santos",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12122.jpg"
+    },
+    {
+      "numero": "40777",
+      "nome": "Anisio Junior",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_estadual_40777.jpg"
+    },
+    {
+      "numero": "10333",
+      "nome": "Anne Mota",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10333.jpg"
+    },
+    {
+      "numero": "36444",
+      "nome": "Antônio Sá",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36444.jpg"
+    },
+    {
+      "numero": "30123",
+      "nome": "Astrid Amazonas",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30123.jpg"
+    },
+    {
+      "numero": "44020",
+      "nome": "Beatriz Fernandes",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44020.jpg"
+    },
+    {
+      "numero": "55555",
+      "nome": "Bosco Saraiva",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55555.jpg"
+    },
+    {
+      "numero": "44000",
+      "nome": "Brena Dianná",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44000.jpg"
+    },
+    {
+      "numero": "13456",
+      "nome": "Brenda Oliveira",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13456.jpg"
+    },
+    {
+      "numero": "15007",
+      "nome": "Cabo Jonas Natario",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15007.jpg"
+    },
+    {
+      "numero": "22333",
+      "nome": "Cabo Maciel",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22333.jpg"
+    },
+    {
+      "numero": "22190",
+      "nome": "Capitão Carpê",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22190.jpg"
+    },
+    {
+      "numero": "36190",
+      "nome": "Capitão Dilson Castro",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36190.jpg"
+    },
+    {
+      "numero": "55255",
+      "nome": "Capitão Isaías",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55255.jpg"
+    },
+    {
+      "numero": "44433",
+      "nome": "Carlinhos Bessa",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44433.jpg"
+    },
+    {
+      "numero": "12777",
+      "nome": "Carlos Moraes",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12777.jpg"
+    },
+    {
+      "numero": "20010",
+      "nome": "Carlos de Jesus",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20010.jpg"
+    },
+    {
+      "numero": "10321",
+      "nome": "Catianne Alves",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10321.jpg"
+    },
+    {
+      "numero": "55190",
+      "nome": "Cb Mailson Jesus",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55190.jpg"
+    },
+    {
+      "numero": "11000",
+      "nome": "Cearazin Semisera",
+      "partido": "PP",
+      "sigla": "PP",
+      "foto": "res://assets/fotos/deputado_estadual_11000.jpg"
+    },
+    {
+      "numero": "10888",
+      "nome": "Cel. Amadeu",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10888.jpg"
+    },
+    {
+      "numero": "30887",
+      "nome": "Chico Araújo",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30887.jpg"
+    },
+    {
+      "numero": "12800",
+      "nome": "Cimara Cavalcante",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12800.jpg"
+    },
+    {
+      "numero": "10111",
+      "nome": "Claudio Santos",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10111.jpg"
+    },
+    {
+      "numero": "30555",
+      "nome": "Clenda Almeida",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30555.jpg"
+    },
+    {
+      "numero": "15444",
+      "nome": "Cláudia Tikuna",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15444.jpg"
+    },
+    {
+      "numero": "55789",
+      "nome": "Cléia Branches",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55789.jpg"
+    },
+    {
+      "numero": "13333",
+      "nome": "Clóvis Curubão",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13333.jpg"
+    },
+    {
+      "numero": "10100",
+      "nome": "Comandante Dan",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10100.jpg"
+    },
+    {
+      "numero": "20999",
+      "nome": "Coronel Bonates",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20999.jpg"
+    },
+    {
+      "numero": "20456",
+      "nome": "Coronel Vinicius Almeida",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20456.jpg"
+    },
+    {
+      "numero": "15888",
+      "nome": "Coronel Wilson Marques",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15888.jpg"
+    },
+    {
+      "numero": "13107",
+      "nome": "Cristiane Sales",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13107.jpg"
+    },
+    {
+      "numero": "15222",
+      "nome": "Cristiano Dangelo",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15222.jpg"
+    },
+    {
+      "numero": "11022",
+      "nome": "Dalva Morais",
+      "partido": "PP",
+      "sigla": "PP",
+      "foto": "res://assets/fotos/deputado_estadual_11022.jpg"
+    },
+    {
+      "numero": "70070",
+      "nome": "Daniel Almeida",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70070.jpg"
+    },
+    {
+      "numero": "36000",
+      "nome": "Daniel Lima",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36000.jpg"
+    },
+    {
+      "numero": "18123",
+      "nome": "Danielle Baré",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_estadual_18123.jpg"
+    },
+    {
+      "numero": "15333",
+      "nome": "David Bemerguy",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15333.jpg"
+    },
+    {
+      "numero": "70123",
+      "nome": "David Reis",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70123.jpg"
+    },
+    {
+      "numero": "44133",
+      "nome": "Dedeia Medeiros",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44133.jpg"
+    },
+    {
+      "numero": "55100",
+      "nome": "Delegada Ana Oliveira",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55100.jpg"
+    },
+    {
+      "numero": "55355",
+      "nome": "Delegada Joyce Coelho",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55355.jpg"
+    },
+    {
+      "numero": "55222",
+      "nome": "Delegado Ayslan Marques",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55222.jpg"
+    },
+    {
+      "numero": "70190",
+      "nome": "Delegado Paulo Mavignier",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70190.jpg"
+    },
+    {
+      "numero": "22222",
+      "nome": "Delegado Péricles",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22222.jpg"
+    },
+    {
+      "numero": "44544",
+      "nome": "Diego Laranjeira",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44544.jpg"
+    },
+    {
+      "numero": "10324",
+      "nome": "Donizete da Voz",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10324.jpg"
+    },
+    {
+      "numero": "15319",
+      "nome": "Donmarques",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15319.jpg"
+    },
+    {
+      "numero": "36070",
+      "nome": "Doutor João Fernandes",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36070.jpg"
+    },
+    {
+      "numero": "70234",
+      "nome": "Dr Eduardo Assis",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70234.jpg"
+    },
+    {
+      "numero": "10190",
+      "nome": "Dr Henrique Vasconcelos",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10190.jpg"
+    },
+    {
+      "numero": "55999",
+      "nome": "Dr Sandoval Cheiro do Povo",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55999.jpg"
+    },
+    {
+      "numero": "10400",
+      "nome": "Dr. Brito",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10400.jpg"
+    },
+    {
+      "numero": "12456",
+      "nome": "Dr. Eron de Sá",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12456.jpg"
+    },
+    {
+      "numero": "20100",
+      "nome": "Dr. Felix e Bancada Ativista",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20100.jpg"
+    },
+    {
+      "numero": "44666",
+      "nome": "Dr. George Lins",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44666.jpg"
+    },
+    {
+      "numero": "44444",
+      "nome": "Dr. Gomes",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44444.jpg"
+    },
+    {
+      "numero": "20555",
+      "nome": "Dr. Marcelo Klinger",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20555.jpg"
+    },
+    {
+      "numero": "10023",
+      "nome": "Dr. Rafael Benoliel",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10023.jpg"
+    },
+    {
+      "numero": "70089",
+      "nome": "Dra Alcinete",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70089.jpg"
+    },
+    {
+      "numero": "20787",
+      "nome": "Dra. Enf. Katia Ventura",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20787.jpg"
+    },
+    {
+      "numero": "10800",
+      "nome": "Dra. Josepha Abreu",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10800.jpg"
+    },
+    {
+      "numero": "22122",
+      "nome": "Débora Menezes",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22122.jpg"
+    },
+    {
+      "numero": "30133",
+      "nome": "Edmilson Lopes",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30133.jpg"
+    },
+    {
+      "numero": "40000",
+      "nome": "Edson Kambeba",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_estadual_40000.jpg"
+    },
+    {
+      "numero": "70789",
+      "nome": "Eduardo Alfaia",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70789.jpg"
+    },
+    {
+      "numero": "10300",
+      "nome": "Edvan Purus",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10300.jpg"
+    },
+    {
+      "numero": "70333",
+      "nome": "Elan Alencar",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70333.jpg"
+    },
+    {
+      "numero": "44234",
+      "nome": "Elda Garcia",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44234.jpg"
+    },
+    {
+      "numero": "15456",
+      "nome": "Elizabeth Oliveira",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15456.jpg"
+    },
+    {
+      "numero": "55000",
+      "nome": "Emanoel Pinheiro",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55000.jpg"
+    },
+    {
+      "numero": "16000",
+      "nome": "Eneida Vasconcelos",
+      "partido": "PSTU",
+      "sigla": "PSTU",
+      "foto": "res://assets/fotos/deputado_estadual_16000.jpg"
+    },
+    {
+      "numero": "70444",
+      "nome": "Enfermeira Jucinara",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70444.jpg"
+    },
+    {
+      "numero": "20020",
+      "nome": "Enfermeira Lili",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20020.jpg"
+    },
+    {
+      "numero": "15016",
+      "nome": "Enfermeira Socorro Dutra",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15016.jpg"
+    },
+    {
+      "numero": "20222",
+      "nome": "Eraldo Cb",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20222.jpg"
+    },
+    {
+      "numero": "65656",
+      "nome": "Eron Bezerra",
+      "partido": "PCDOB",
+      "sigla": "PCDOB",
+      "foto": "res://assets/fotos/deputado_estadual_65656.jpg"
+    },
+    {
+      "numero": "36556",
+      "nome": "Ester do Piorini",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36556.jpg"
+    },
+    {
+      "numero": "55123",
+      "nome": "Eurico Tavares",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55123.jpg"
+    },
+    {
+      "numero": "22002",
+      "nome": "Fabricio Mar",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22002.jpg"
+    },
+    {
+      "numero": "12560",
+      "nome": "Fabíola Marques",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12560.jpg"
+    },
+    {
+      "numero": "15123",
+      "nome": "Felipe Lobo",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15123.jpg"
+    },
+    {
+      "numero": "20000",
+      "nome": "Felipe Souza",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20000.jpg"
+    },
+    {
+      "numero": "12030",
+      "nome": "Fernandão",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12030.jpg"
+    },
+    {
+      "numero": "70766",
+      "nome": "Flávia Ketlen",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70766.jpg"
+    },
+    {
+      "numero": "22244",
+      "nome": "Frank Cabeça",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22244.jpg"
+    },
+    {
+      "numero": "22092",
+      "nome": "Frank Parente",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22092.jpg"
+    },
+    {
+      "numero": "44567",
+      "nome": "Frederico Junior",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44567.jpg"
+    },
+    {
+      "numero": "36064",
+      "nome": "Fábio Duarte Filho do Bairro",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36064.jpg"
+    },
+    {
+      "numero": "70300",
+      "nome": "Fábio Farias",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70300.jpg"
+    },
+    {
+      "numero": "36888",
+      "nome": "Gideane Brasil",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36888.jpg"
+    },
+    {
+      "numero": "70700",
+      "nome": "Gilmar Nascimento",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70700.jpg"
+    },
+    {
+      "numero": "50310",
+      "nome": "Gilmara Guimarães",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50310.jpg"
+    },
+    {
+      "numero": "70999",
+      "nome": "Givancir Oliveira",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70999.jpg"
+    },
+    {
+      "numero": "20789",
+      "nome": "Glenio Seixas",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20789.jpg"
+    },
+    {
+      "numero": "55124",
+      "nome": "Grazzy",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55124.jpg"
+    },
+    {
+      "numero": "10010",
+      "nome": "Gustavo Morais",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10010.jpg"
+    },
+    {
+      "numero": "13116",
+      "nome": "Herbert Amazonas",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13116.jpg"
+    },
+    {
+      "numero": "12123",
+      "nome": "Hudson Jorge",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12123.jpg"
+    },
+    {
+      "numero": "18018",
+      "nome": "Humberto Koripaco",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_estadual_18018.jpg"
+    },
+    {
+      "numero": "36026",
+      "nome": "Ingrid Mendonça",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36026.jpg"
+    },
+    {
+      "numero": "70180",
+      "nome": "Isabelly Aurora",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70180.jpg"
+    },
+    {
+      "numero": "15015",
+      "nome": "Jair Souto",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15015.jpg"
+    },
+    {
+      "numero": "20007",
+      "nome": "Jairo da Vical",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20007.jpg"
+    },
+    {
+      "numero": "50420",
+      "nome": "Janaína Anjos",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50420.jpg"
+    },
+    {
+      "numero": "10200",
+      "nome": "Jaziel Ribeiro - O Resolve!",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10200.jpg"
+    },
+    {
+      "numero": "30444",
+      "nome": "Jean Carlos",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30444.jpg"
+    },
+    {
+      "numero": "50100",
+      "nome": "Jean Paz",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50100.jpg"
+    },
+    {
+      "numero": "36123",
+      "nome": "Jender Lobato",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36123.jpg"
+    },
+    {
+      "numero": "36111",
+      "nome": "Joana Dantas",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36111.jpg"
+    },
+    {
+      "numero": "30245",
+      "nome": "Joana Travassos",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30245.jpg"
+    },
+    {
+      "numero": "30777",
+      "nome": "Jonh Silva",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30777.jpg"
+    },
+    {
+      "numero": "55644",
+      "nome": "Jorge Santiago",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55644.jpg"
+    },
+    {
+      "numero": "50123",
+      "nome": "José do Norte",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50123.jpg"
+    },
+    {
+      "numero": "10123",
+      "nome": "João Luiz",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10123.jpg"
+    },
+    {
+      "numero": "36036",
+      "nome": "João Paulo Janjão",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36036.jpg"
+    },
+    {
+      "numero": "70111",
+      "nome": "João Roberto",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70111.jpg"
+    },
+    {
+      "numero": "20111",
+      "nome": "Joãozinho Miranda",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20111.jpg"
+    },
+    {
+      "numero": "30392",
+      "nome": "Junio Lima",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30392.jpg"
+    },
+    {
+      "numero": "70222",
+      "nome": "Junior Mar",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70222.jpg"
+    },
+    {
+      "numero": "70456",
+      "nome": "Junior Veloso",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70456.jpg"
+    },
+    {
+      "numero": "13619",
+      "nome": "Jéssica Valois",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13619.jpg"
+    },
+    {
+      "numero": "12711",
+      "nome": "Júnior Ribeiro",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12711.jpg"
+    },
+    {
+      "numero": "10000",
+      "nome": "Karla Campos",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10000.jpg"
+    },
+    {
+      "numero": "40222",
+      "nome": "Katryna Bernardo",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_estadual_40222.jpg"
+    },
+    {
+      "numero": "70777",
+      "nome": "Katy Feitoza",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70777.jpg"
+    },
+    {
+      "numero": "15000",
+      "nome": "Kennedy Marques Protetor",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15000.jpg"
+    },
+    {
+      "numero": "36525",
+      "nome": "Kenny Souza",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36525.jpg"
+    },
+    {
+      "numero": "22111",
+      "nome": "Kidson Maia",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22111.jpg"
+    },
+    {
+      "numero": "55241",
+      "nome": "Leandro Ativista Pcd",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55241.jpg"
+    },
+    {
+      "numero": "55888",
+      "nome": "Leilane Oliveira",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55888.jpg"
+    },
+    {
+      "numero": "40233",
+      "nome": "Leivson Luiz",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_estadual_40233.jpg"
+    },
+    {
+      "numero": "30122",
+      "nome": "Leno Menezes",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30122.jpg"
+    },
+    {
+      "numero": "30111",
+      "nome": "Lico Araújo",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30111.jpg"
+    },
+    {
+      "numero": "55777",
+      "nome": "Lions Bruce",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55777.jpg"
+    },
+    {
+      "numero": "55321",
+      "nome": "Loren",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55321.jpg"
+    },
+    {
+      "numero": "13125",
+      "nome": "Lourdes Quilombola",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13125.jpg"
+    },
+    {
+      "numero": "55500",
+      "nome": "Lourisval Pereira",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55500.jpg"
+    },
+    {
+      "numero": "15622",
+      "nome": "Luana Ferraz",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15622.jpg"
+    },
+    {
+      "numero": "10369",
+      "nome": "Lucas Abreu",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10369.jpg"
+    },
+    {
+      "numero": "30230",
+      "nome": "Lucas Sá",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30230.jpg"
+    },
+    {
+      "numero": "22344",
+      "nome": "Luciana França",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22344.jpg"
+    },
+    {
+      "numero": "10456",
+      "nome": "Luciana Melo",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10456.jpg"
+    },
+    {
+      "numero": "40633",
+      "nome": "Luciano Vieira",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_estadual_40633.jpg"
+    },
+    {
+      "numero": "12345",
+      "nome": "Luiz Castro",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12345.jpg"
+    },
+    {
+      "numero": "22456",
+      "nome": "Léia Fernandes",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22456.jpg"
+    },
+    {
+      "numero": "30007",
+      "nome": "Lúcia Tavares",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30007.jpg"
+    },
+    {
+      "numero": "36236",
+      "nome": "Macki Soares",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36236.jpg"
+    },
+    {
+      "numero": "36069",
+      "nome": "Magrinha Elen",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36069.jpg"
+    },
+    {
+      "numero": "22444",
+      "nome": "Manoel Cunha",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22444.jpg"
+    },
+    {
+      "numero": "12604",
+      "nome": "Manuel Silva",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12604.jpg"
+    },
+    {
+      "numero": "36321",
+      "nome": "Mara Núbia",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36321.jpg"
+    },
+    {
+      "numero": "44144",
+      "nome": "Marcel Alexandre",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44144.jpg"
+    },
+    {
+      "numero": "22345",
+      "nome": "Marcello Demasi",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22345.jpg"
+    },
+    {
+      "numero": "44321",
+      "nome": "Marcellus Campêlo",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44321.jpg"
+    },
+    {
+      "numero": "10013",
+      "nome": "Marcelo Amil",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10013.jpg"
+    },
+    {
+      "numero": "36999",
+      "nome": "Marcelo Palhano",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36999.jpg"
+    },
+    {
+      "numero": "20777",
+      "nome": "Marcio Braga Maninho",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20777.jpg"
+    },
+    {
+      "numero": "30114",
+      "nome": "Marcio Patriota",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30114.jpg"
+    },
+    {
+      "numero": "44500",
+      "nome": "Marco Castilhos",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44500.jpg"
+    },
+    {
+      "numero": "12111",
+      "nome": "Marcos Cavalcante",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12111.jpg"
+    },
+    {
+      "numero": "12222",
+      "nome": "Marcos Patrício",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12222.jpg"
+    },
+    {
+      "numero": "13777",
+      "nome": "Maria Guimarães",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13777.jpg"
+    },
+    {
+      "numero": "30232",
+      "nome": "Marlucia Vieira",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30232.jpg"
+    },
+    {
+      "numero": "36063",
+      "nome": "Mary Alves",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36063.jpg"
+    },
+    {
+      "numero": "15777",
+      "nome": "Matheus Garcia",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15777.jpg"
+    },
+    {
+      "numero": "50999",
+      "nome": "Mauro Coelho",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50999.jpg"
+    },
+    {
+      "numero": "55125",
+      "nome": "Mayra Dias",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55125.jpg"
+    },
+    {
+      "numero": "12070",
+      "nome": "Mazinho da Ecobarreira",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12070.jpg"
+    },
+    {
+      "numero": "40376",
+      "nome": "Mestre Clodoaldo",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_estadual_40376.jpg"
+    },
+    {
+      "numero": "70040",
+      "nome": "Meyb Seixas",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70040.jpg"
+    },
+    {
+      "numero": "30222",
+      "nome": "Michael Lemos",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30222.jpg"
+    },
+    {
+      "numero": "15079",
+      "nome": "Michaell Santos",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15079.jpg"
+    },
+    {
+      "numero": "22822",
+      "nome": "Michel Felipe",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22822.jpg"
+    },
+    {
+      "numero": "22000",
+      "nome": "Michella Santos",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22000.jpg"
+    },
+    {
+      "numero": "13123",
+      "nome": "Michelle Andrews",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13123.jpg"
+    },
+    {
+      "numero": "36014",
+      "nome": "Moisés Gusmão",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36014.jpg"
+    },
+    {
+      "numero": "55233",
+      "nome": "Márcia Regina",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55233.jpg"
+    },
+    {
+      "numero": "15100",
+      "nome": "Márcia Santtos",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15100.jpg"
+    },
+    {
+      "numero": "44777",
+      "nome": "Mário César Filho",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44777.jpg"
+    },
+    {
+      "numero": "30000",
+      "nome": "Mônica Alves de Souza Mota",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30000.jpg"
+    },
+    {
+      "numero": "10777",
+      "nome": "Naglia Amorim",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10777.jpg"
+    },
+    {
+      "numero": "18765",
+      "nome": "Naldo Mura",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_estadual_18765.jpg"
+    },
+    {
+      "numero": "20500",
+      "nome": "Nazare Pereira",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20500.jpg"
+    },
+    {
+      "numero": "44333",
+      "nome": "Neibe Araujo",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44333.jpg"
+    },
+    {
+      "numero": "50111",
+      "nome": "Nelson Noel",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50111.jpg"
+    },
+    {
+      "numero": "30124",
+      "nome": "Nete Mota",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30124.jpg"
+    },
+    {
+      "numero": "50011",
+      "nome": "Nete Moura Protetora",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50011.jpg"
+    },
+    {
+      "numero": "30700",
+      "nome": "Neto Assayag",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30700.jpg"
+    },
+    {
+      "numero": "15050",
+      "nome": "Neuriane Munduruku",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15050.jpg"
+    },
+    {
+      "numero": "12666",
+      "nome": "Ney da Panair",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12666.jpg"
+    },
+    {
+      "numero": "55444",
+      "nome": "Nádia Saldanha",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55444.jpg"
+    },
+    {
+      "numero": "22012",
+      "nome": "Níssia Aguiar",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22012.jpg"
+    },
+    {
+      "numero": "36456",
+      "nome": "O Keitton",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36456.jpg"
+    },
+    {
+      "numero": "30233",
+      "nome": "Orcharlinghton Jati",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30233.jpg"
+    },
+    {
+      "numero": "12012",
+      "nome": "Otacílio Negreiros",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12012.jpg"
+    },
+    {
+      "numero": "70170",
+      "nome": "Pai Amado",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70170.jpg"
+    },
+    {
+      "numero": "22999",
+      "nome": "Paulo Bardales",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22999.jpg"
+    },
+    {
+      "numero": "13334",
+      "nome": "Paulo Mendes",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13334.jpg"
+    },
+    {
+      "numero": "20444",
+      "nome": "Paulo Pp",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20444.jpg"
+    },
+    {
+      "numero": "12555",
+      "nome": "Peri",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12555.jpg"
+    },
+    {
+      "numero": "36333",
+      "nome": "Phelippe Sidi",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36333.jpg"
+    },
+    {
+      "numero": "20633",
+      "nome": "Pr. Abel Pedraça",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20633.jpg"
+    },
+    {
+      "numero": "10600",
+      "nome": "Prissila Melo",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10600.jpg"
+    },
+    {
+      "numero": "20144",
+      "nome": "Prof. Antonia Mcgregor",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20144.jpg"
+    },
+    {
+      "numero": "65126",
+      "nome": "Prof. Greice Anne",
+      "partido": "PCDOB",
+      "sigla": "PCDOB",
+      "foto": "res://assets/fotos/deputado_estadual_65126.jpg"
+    },
+    {
+      "numero": "15002",
+      "nome": "Prof.. Gina González",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15002.jpg"
+    },
+    {
+      "numero": "12789",
+      "nome": "Professor Ademir",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12789.jpg"
+    },
+    {
+      "numero": "13633",
+      "nome": "Professor Sinésio",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13633.jpg"
+    },
+    {
+      "numero": "15999",
+      "nome": "Professor Val",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15999.jpg"
+    },
+    {
+      "numero": "20234",
+      "nome": "Professora Edith Falcão",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20234.jpg"
+    },
+    {
+      "numero": "44300",
+      "nome": "Professora Jacqueline",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44300.jpg"
+    },
+    {
+      "numero": "40013",
+      "nome": "Professora Tatiana",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_estadual_40013.jpg"
+    },
+    {
+      "numero": "70258",
+      "nome": "Radyr Oliveira",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70258.jpg"
+    },
+    {
+      "numero": "30030",
+      "nome": "Rafael Bastos",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30030.jpg"
+    },
+    {
+      "numero": "18111",
+      "nome": "Raimunda Kambeba",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_estadual_18111.jpg"
+    },
+    {
+      "numero": "22555",
+      "nome": "Ramon Pedrosa",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22555.jpg"
+    },
+    {
+      "numero": "10700",
+      "nome": "Raul da Reciclagem",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10700.jpg"
+    },
+    {
+      "numero": "22777",
+      "nome": "Rayana Pinho do Bazar",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22777.jpg"
+    },
+    {
+      "numero": "12321",
+      "nome": "Rei Naldo",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12321.jpg"
+    },
+    {
+      "numero": "55113",
+      "nome": "Renato Mura",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55113.jpg"
+    },
+    {
+      "numero": "36222",
+      "nome": "Rizannio Toya",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36222.jpg"
+    },
+    {
+      "numero": "70770",
+      "nome": "Rodinei Ramos",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70770.jpg"
+    },
+    {
+      "numero": "13656",
+      "nome": "Rodrigo Furtado",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13656.jpg"
+    },
+    {
+      "numero": "10007",
+      "nome": "Rodrigo Guedes",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10007.jpg"
+    },
+    {
+      "numero": "36789",
+      "nome": "Rodrigo Melo",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36789.jpg"
+    },
+    {
+      "numero": "11111",
+      "nome": "Rodrigo Sá",
+      "partido": "PP",
+      "sigla": "PP",
+      "foto": "res://assets/fotos/deputado_estadual_11111.jpg"
+    },
+    {
+      "numero": "18418",
+      "nome": "Romano",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_estadual_18418.jpg"
+    },
+    {
+      "numero": "13055",
+      "nome": "Romildo Pimentel",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13055.jpg"
+    },
+    {
+      "numero": "44555",
+      "nome": "Ronildo Souza",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44555.jpg"
+    },
+    {
+      "numero": "30999",
+      "nome": "Ronilson Souza",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30999.jpg"
+    },
+    {
+      "numero": "36567",
+      "nome": "Rony da Pesca",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36567.jpg"
+    },
+    {
+      "numero": "20714",
+      "nome": "Rosa das Comunidades",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20714.jpg"
+    },
+    {
+      "numero": "20008",
+      "nome": "Rosi Matos",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20008.jpg"
+    },
+    {
+      "numero": "55007",
+      "nome": "Rozenha",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55007.jpg"
+    },
+    {
+      "numero": "13013",
+      "nome": "Sabugo",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13013.jpg"
+    },
+    {
+      "numero": "44888",
+      "nome": "Sargento Bruna",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44888.jpg"
+    },
+    {
+      "numero": "50444",
+      "nome": "Senhor Luiz Agricultor",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50444.jpg"
+    },
+    {
+      "numero": "15005",
+      "nome": "Sergio Nunes",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15005.jpg"
+    },
+    {
+      "numero": "20190",
+      "nome": "Sgt Loiola",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20190.jpg"
+    },
+    {
+      "numero": "10710",
+      "nome": "Sgt. Ana Claudia",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10710.jpg"
+    },
+    {
+      "numero": "55600",
+      "nome": "Sidney Souza",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55600.jpg"
+    },
+    {
+      "numero": "15111",
+      "nome": "Simão Peixoto",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15111.jpg"
+    },
+    {
+      "numero": "22147",
+      "nome": "Sipa Gente da Gente",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22147.jpg"
+    },
+    {
+      "numero": "15654",
+      "nome": "Socorro do Café",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15654.jpg"
+    },
+    {
+      "numero": "12312",
+      "nome": "Soraia Soares",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12312.jpg"
+    },
+    {
+      "numero": "10500",
+      "nome": "St Manoel Loureiro",
+      "partido": "REPUBLICANOS",
+      "sigla": "REPUBLICANOS",
+      "foto": "res://assets/fotos/deputado_estadual_10500.jpg"
+    },
+    {
+      "numero": "36227",
+      "nome": "Sâmara Souza",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36227.jpg"
+    },
+    {
+      "numero": "22123",
+      "nome": "Sérgio Kruke",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22123.jpg"
+    },
+    {
+      "numero": "16016",
+      "nome": "Tarcísio Leão",
+      "partido": "PSTU",
+      "sigla": "PSTU",
+      "foto": "res://assets/fotos/deputado_estadual_16016.jpg"
+    },
+    {
+      "numero": "12612",
+      "nome": "Tati da Nutrição",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12612.jpg"
+    },
+    {
+      "numero": "15789",
+      "nome": "Thiago Abrahim",
+      "partido": "MDB",
+      "sigla": "MDB",
+      "foto": "res://assets/fotos/deputado_estadual_15789.jpg"
+    },
+    {
+      "numero": "20333",
+      "nome": "Thiaguinho Lago Azul e Bancada",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20333.jpg"
+    },
+    {
+      "numero": "20369",
+      "nome": "Tiago Falcão",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20369.jpg"
+    },
+    {
+      "numero": "36777",
+      "nome": "Tony Medeiros",
+      "partido": "AGIR",
+      "sigla": "AGIR",
+      "foto": "res://assets/fotos/deputado_estadual_36777.jpg"
+    },
+    {
+      "numero": "12600",
+      "nome": "Tuxáua Naza Mura",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12600.jpg"
+    },
+    {
+      "numero": "40111",
+      "nome": "Val Lima",
+      "partido": "PSB",
+      "sigla": "PSB",
+      "foto": "res://assets/fotos/deputado_estadual_40111.jpg"
+    },
+    {
+      "numero": "12121",
+      "nome": "Valeska Freitas",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12121.jpg"
+    },
+    {
+      "numero": "22233",
+      "nome": "Vangela Freitas",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22233.jpg"
+    },
+    {
+      "numero": "12000",
+      "nome": "Victor Laborda",
+      "partido": "PDT",
+      "sigla": "PDT",
+      "foto": "res://assets/fotos/deputado_estadual_12000.jpg"
+    },
+    {
+      "numero": "70100",
+      "nome": "Vivi Lira",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "foto": "res://assets/fotos/deputado_estadual_70100.jpg"
+    },
+    {
+      "numero": "44222",
+      "nome": "Vivian Amorim",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44222.jpg"
+    },
+    {
+      "numero": "44789",
+      "nome": "Wanderley Monteiro",
+      "partido": "UNIÃO",
+      "sigla": "UNIÃO",
+      "foto": "res://assets/fotos/deputado_estadual_44789.jpg"
+    },
+    {
+      "numero": "30170",
+      "nome": "Wando Fonteles",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30170.jpg"
+    },
+    {
+      "numero": "30762",
+      "nome": "Wendel Largatixa",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30762.jpg"
+    },
+    {
+      "numero": "55055",
+      "nome": "Wilker Barreto",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "foto": "res://assets/fotos/deputado_estadual_55055.jpg"
+    },
+    {
+      "numero": "22662",
+      "nome": "Willace Souza",
+      "partido": "PL",
+      "sigla": "PL",
+      "foto": "res://assets/fotos/deputado_estadual_22662.jpg"
+    },
+    {
+      "numero": "50777",
+      "nome": "Wladimir Medeiros",
+      "partido": "PSOL",
+      "sigla": "PSOL",
+      "foto": "res://assets/fotos/deputado_estadual_50777.jpg"
+    },
+    {
+      "numero": "20123",
+      "nome": "Yomara Lins",
+      "partido": "PODE",
+      "sigla": "PODE",
+      "foto": "res://assets/fotos/deputado_estadual_20123.jpg"
+    },
+    {
+      "numero": "18321",
+      "nome": "Yura Marubo",
+      "partido": "REDE",
+      "sigla": "REDE",
+      "foto": "res://assets/fotos/deputado_estadual_18321.jpg"
+    },
+    {
+      "numero": "30456",
+      "nome": "Zé Real",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "foto": "res://assets/fotos/deputado_estadual_30456.jpg"
+    },
+    {
+      "numero": "13610",
+      "nome": "Zé Ricardo",
+      "partido": "PT",
+      "sigla": "PT",
+      "foto": "res://assets/fotos/deputado_estadual_13610.jpg"
+    }
+  ],
+  "presidente": [
+    {
+      "numero": "27",
+      "nome": "Clariana Barao",
+      "partido": "DC",
+      "sigla": "DC",
+      "vice": "Fabiana Torquato (DC)",
+      "foto": "res://assets/fotos/presidente_27.jpg"
+    },
+    {
+      "numero": "21",
+      "nome": "Edmilson Costa",
+      "partido": "PCB",
+      "sigla": "PCB",
+      "vice": "Cleusa Santos (PCB)",
+      "foto": "res://assets/fotos/presidente_21.jpg"
+    },
+    {
+      "numero": "70",
+      "nome": "Escritor Augusto Cury",
+      "partido": "AVANTE",
+      "sigla": "AVANTE",
+      "vice": "Júlio Delgado (AVANTE)",
+      "foto": "res://assets/fotos/presidente_70.jpg"
+    },
+    {
+      "numero": "22",
+      "nome": "Flavio Bolsonaro",
+      "partido": "PL",
+      "sigla": "PL",
+      "vice": "Alfredo Gaspar (PL)",
+      "foto": "res://assets/fotos/presidente_22.jpg"
+    },
+    {
+      "numero": "16",
+      "nome": "Hertz Dias",
+      "partido": "PSTU",
+      "sigla": "PSTU",
+      "vice": "Vanessa Portugal (PSTU)",
+      "foto": "res://assets/fotos/presidente_16.jpg"
+    },
+    {
+      "numero": "13",
+      "nome": "Lula",
+      "partido": "PT",
+      "sigla": "PT",
+      "vice": "Geraldo Alckmin (PSB)",
+      "foto": "res://assets/fotos/presidente_13.jpg"
+    },
+    {
+      "numero": "28",
+      "nome": "Pablo Marçal",
+      "partido": "PRTB",
+      "sigla": "PRTB",
+      "vice": "Leonardo Avalanche (PRTB)",
+      "foto": "res://assets/fotos/presidente_28.jpg"
+    },
+    {
+      "numero": "14",
+      "nome": "Renan Santos",
+      "partido": "MISSÃO",
+      "sigla": "MISSÃO",
+      "vice": "Coronel Medina (MISSÃO)",
+      "foto": "res://assets/fotos/presidente_14.jpg"
+    },
+    {
+      "numero": "55",
+      "nome": "Ronaldo Caiado",
+      "partido": "PSD",
+      "sigla": "PSD",
+      "vice": "Gilberto Kassab (PSD)",
+      "foto": "res://assets/fotos/presidente_55.jpg"
+    },
+    {
+      "numero": "29",
+      "nome": "Rui Costa Pimenta",
+      "partido": "PCO",
+      "sigla": "PCO",
+      "vice": "Antônio Carlos (PCO)",
+      "foto": "res://assets/fotos/presidente_29.jpg"
+    },
+    {
+      "numero": "80",
+      "nome": "Samara",
+      "partido": "UP",
+      "sigla": "UP",
+      "vice": "Raquel Brício (UP)",
+      "foto": "res://assets/fotos/presidente_80.jpg"
+    },
+    {
+      "numero": "35",
+      "nome": "Veterinário Wilson Grassi",
+      "partido": "DEMOCRATA",
+      "sigla": "DEMOCRATA",
+      "vice": "Suêd Haidar (DEMOCRATA)",
+      "foto": "res://assets/fotos/presidente_35.jpg"
+    },
+    {
+      "numero": "30",
+      "nome": "Zema",
+      "partido": "NOVO",
+      "sigla": "NOVO",
+      "vice": "Eduardo Girão (NOVO)",
+      "foto": "res://assets/fotos/presidente_30.jpg"
+    }
+  ]
+}
