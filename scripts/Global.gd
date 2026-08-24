@@ -99,6 +99,17 @@ func validar_cpf(cpf_str: String) -> bool:
 
 # --- VERIFICAÇÃO ANTI-FRAUDE: CPF JÁ VOTOU? ---
 func verificar_cpf_ja_votou(cpf: String, callback_target: Object, callback_func: String) -> void:
+	if OS.has_feature("web"):
+		var window = JavaScriptBridge.get_interface("window")
+		if window != null:
+			var cb = JavaScriptBridge.create_callback(func(args):
+				var ja_votou = bool(args[0])
+				if callback_target and callback_target.has_method(callback_func):
+					callback_target.call(callback_func, ja_votou)
+			)
+			window.supabaseVerificarCPF(cpf, cb)
+			return
+
 	var http = HTTPRequest.new()
 	add_child(http)
 	
@@ -106,7 +117,8 @@ func verificar_cpf_ja_votou(cpf: String, callback_target: Object, callback_func:
 	var url = SUPABASE_URL + "/rest/v1/votos?cpf=eq." + cpf.uri_encode() + "&select=id"
 	var headers = [
 		"apikey: " + SUPABASE_KEY,
-		"Authorization: Bearer " + SUPABASE_KEY
+		"Authorization: Bearer " + SUPABASE_KEY,
+		"Accept: application/json"
 	]
 	
 	http.request_completed.connect(func(result: int, response_code: int, response_headers: PackedStringArray, response_body: PackedByteArray):
@@ -133,17 +145,6 @@ func verificar_cpf_ja_votou(cpf: String, callback_target: Object, callback_func:
 
 # --- ENVIAR VOTOS AO SUPABASE ---
 func salvar_voto(callback_target: Object, callback_func: String) -> void:
-	var http = HTTPRequest.new()
-	add_child(http)
-	
-	var url = SUPABASE_URL + "/rest/v1/votos"
-	var headers = [
-		"apikey: " + SUPABASE_KEY,
-		"Authorization: Bearer " + SUPABASE_KEY,
-		"Content-Type: application/json",
-		"Prefer: return=representation"
-	]
-	
 	var body_dict = {
 		"nome_eleitor": eleitor_nome,
 		"telefone": eleitor_telefone,
@@ -154,8 +155,29 @@ func salvar_voto(callback_target: Object, callback_func: String) -> void:
 		"voto_governador": votos_atuais["governador"],
 		"voto_presidente": votos_atuais["presidente"]
 	}
-	
 	var json_body = JSON.stringify(body_dict)
+
+	if OS.has_feature("web"):
+		var window = JavaScriptBridge.get_interface("window")
+		if window != null:
+			var cb = JavaScriptBridge.create_callback(func(args):
+				var success = bool(args[0])
+				if callback_target and callback_target.has_method(callback_func):
+					callback_target.call(callback_func, success)
+			)
+			window.supabaseSalvarVoto(json_body, cb)
+			return
+
+	var http = HTTPRequest.new()
+	add_child(http)
+	
+	var url = SUPABASE_URL + "/rest/v1/votos"
+	var headers = [
+		"apikey: " + SUPABASE_KEY,
+		"Authorization: Bearer " + SUPABASE_KEY,
+		"Content-Type: application/json",
+		"Prefer: return=representation"
+	]
 	
 	http.request_completed.connect(func(result: int, response_code: int, response_headers: PackedStringArray, response_body: PackedByteArray):
 		var success = (response_code >= 200 and response_code < 300)
@@ -176,13 +198,29 @@ func salvar_voto(callback_target: Object, callback_func: String) -> void:
 
 # --- BUSCAR TODAS AS PARCIAIS NO SUPABASE ---
 func carregar_parciais(callback_target: Object, callback_func: String) -> void:
+	if OS.has_feature("web"):
+		var window = JavaScriptBridge.get_interface("window")
+		if window != null:
+			var cb = JavaScriptBridge.create_callback(func(args):
+				var json_str = str(args[0])
+				var json = JSON.new()
+				var list = []
+				if json.parse(json_str) == OK and typeof(json.data) == TYPE_ARRAY:
+					list = json.data
+				if callback_target and callback_target.has_method(callback_func):
+					callback_target.call(callback_func, list)
+			)
+			window.supabaseGetParciais(cb)
+			return
+
 	var http = HTTPRequest.new()
 	add_child(http)
 	
 	var url = SUPABASE_URL + "/rest/v1/votos?select=*"
 	var headers = [
 		"apikey: " + SUPABASE_KEY,
-		"Authorization: Bearer " + SUPABASE_KEY
+		"Authorization: Bearer " + SUPABASE_KEY,
+		"Accept: application/json"
 	]
 	
 	http.request_completed.connect(func(result: int, response_code: int, response_headers: PackedStringArray, response_body: PackedByteArray):
